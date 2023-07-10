@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
+    background-image: url(./images/img01.jpg);
 }
 
 img {
@@ -15,13 +16,16 @@ img {
 
 header {
     border: 1px solid gray;
+    background-color: #fff;
 }
 
-header .container {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 1em;
+    max-width: 1200px;
+    margin: 1em auto;
 }
 
 header .container h1 {
