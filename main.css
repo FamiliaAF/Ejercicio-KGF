@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+header {
+    border: 1px solid gray;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+
+header .container h1 {
+    color: #167eff;
+}
+
+header .container a {
+    color: #898a92;
+    text-decoration: none;
+}
