@@ -21,6 +21,8 @@ header {
     background-color: #fff;
     border-radius: 5px;
     padding: 2em 1em;
+    width: 90%;
+    max-width: 1200px;
     box-shadow: 1px 1px 20px #ddd; 
 }
 
@@ -28,7 +30,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
 }
 
 .logo a {
@@ -37,38 +38,46 @@ header {
     font-size: 1.25em;
 }
 
-.header-main {
-    font-size: 0.8em;
-    font-weight: 400;
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    align-items: center;
 }
 
-.header-main a {
-    margin: 1em;
+.nav-main {
+    font-size: 0.8em;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.nav-main a {
     color: #333;
     transition: 0.3s;
 }
 
-.header-main a:hover {
+.nav-main a:hover {
     color: #fc7fb2;
 }
 
-.header-main .home {
+.nav-main .home {
     color: #fc7fb2;
 }
 
-.header-social a{
+.nav-social a{
     border: 1px solid #e6e6e6;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-right: 4px;
     color: #333;
     padding: 0.5em;
     transition: 0.3s;
 }
 
-.header-social a:hover{
+.nav-social a:hover{
     background-color: #fc7fb2;
     color: white;
-    border: none;
+    border: 1px solid #fc7fb2;
 }
